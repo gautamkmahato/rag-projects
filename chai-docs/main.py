@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import time
 
-
+ # Load the Site map
 def load_sitemap(file_path: str):
     tree = ET.parse(file_path)
     root = tree.getroot()
