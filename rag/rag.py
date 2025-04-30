@@ -11,7 +11,7 @@ from langchain_qdrant import QdrantVectorStore
 
 load_dotenv()
 
-# Configuration
+# Configuration and path
 PDF_PATH = "C:\\Users\\Gautam Kumar Mahato\\Desktop\\apps\\chai\\node.pdf"
 COLLECTION_NAME = "node_pdf_collection"  # Changed collection name
 
@@ -56,6 +56,9 @@ embeddings = GoogleGenerativeAIEmbeddings(
 
 # print("successfully created the vector collection")
 
+def sample_function():
+    print("this is test for github PR")
+
 def load_vector_store():
     client=QdrantClient(
             url=os.getenv("QDRANT_URL"),
@@ -70,6 +73,9 @@ def load_vector_store():
 
 # Example usage
 print("========= start chat ===========")
+
+# gkm_token for github PR test
+gkm_token='gkm12345'
 
 while(True):
     query = input("User: ")

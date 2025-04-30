@@ -11,6 +11,7 @@ from langchain_qdrant import QdrantVectorStore
 
 load_dotenv()
 
+# This is again a test for changes in LLM
 # Configuration
 COLLECTION_NAME = "chai_docs_collection"  # Changed collection name
 
