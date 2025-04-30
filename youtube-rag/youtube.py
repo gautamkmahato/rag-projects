@@ -16,7 +16,7 @@ from langchain.schema import Document
 
 load_dotenv() 
 
-
+# Just testing
 # Configuration
 PDF_PATH = "C:\\Users\\Gautam Kumar Mahato\\Desktop\\apps\\chai\\node.pdf"
 COLLECTION_NAME = "node_pdf_collection"  # Changed collection name
